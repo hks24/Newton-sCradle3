@@ -94,7 +94,7 @@ function draw() {
 function keyPressed(){
 	if(keyCode===38){
 		//Matter.Body.isStatic = false;
-		Matter.Body.applyForce(bobObject1.body, bobObject1.body.position,{x:-100,y:-100});
+		Matter.Body.applyForce(bobObject1.body, bobObject1.body.position,{x:-50,y:-50});
 	}
 }
 
